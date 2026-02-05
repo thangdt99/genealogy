@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+}
+
+.tree ul {
+  padding-top: 20px;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.tree li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 5px 0 5px;
+}
+
+/* đường nối */
+.tree li::before,
+.tree li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-top: 2px solid #ccc;
+  width: 50%;
+  height: 20px;
+}
+
+.tree li::after {
+  right: auto;
+  left: 50%;
+  border-left: 2px solid #ccc;
+}
+
+.tree li:only-child::before,
+.tree li:only-child::after {
+  display: none;
+}
+
+.tree li:only-child {
+  padding-top: 0;
+}
+
+.tree li:first-child::before,
+.tree li:last-child::after {
+  border: 0 none;
+}
+
+.tree li:last-child::before {
+  border-right: 2px solid #ccc;
+  border-radius: 0 5px 0 0;
+}
+
+.tree li:first-child::after {
+  border-radius: 5px 0 0 0;
+}
+
+.tree ul ul::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 2px solid #ccc;
+  width: 0;
+  height: 20px;
+}
+/* node */
+.person {
+  border: 2px solid #ccc;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 8px;
+  background: white;
+  min-width: 120px;
+}
+
+.person.male {
+  border-color: #4caf50;
+}
+
+.person.female {
+  border-color: #ff9800;
+}
+
+.person img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.person .name {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.person .year {
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.person .phone {
+  font-size: 12px;
+  color: #666;
+}
+ /* search */
+.search-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 6px;
+  width: 200px;
+}
+
+.search-box button {
+  padding: 6px 10px;
+  margin-left: 4px;
+}
