@@ -56,6 +56,14 @@ h1 {
   padding: 20px 5px 0 5px;
   white-space: nowrap;
 }
+.tree > ul {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.tree > ul > li::before, .tree > ul > li::after{
+  display: none;
+}
 
 /* đường nối */
 .tree li::before,
@@ -73,6 +81,15 @@ h1 {
   right: auto;
   left: 50%;
   border-left: 2px solid #ccc;
+}
+
+.tree li:only-child::before,
+.tree li:only-child::after {
+  border-radius: 0 !important;
+  border-left: 2px solid #ccc !important;
+  border-right: none !important;
+  right: auto !important;
+  left: 50% !important;
 }
 
 .tree li:first-child::before,
