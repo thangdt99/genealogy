@@ -104,6 +104,28 @@ const FAMILY_DATA = [
   }
 ];
 //"image": "images/female.png",
+
+const viewport = document.querySelector('.tree-viewport');
+let isDown = false, startX, startY, scrollLeft, scrollTop;
+
+viewport.addEventListener('mousedown', e => {
+  isDown = true;
+  startX = e.pageX;
+  startY = e.pageY;
+  scrollLeft = viewport.scrollLeft;
+  scrollTop = viewport.scrollTop;
+});
+
+viewport.addEventListener('mouseleave', () => isDown = false);
+viewport.addEventListener('mouseup', () => isDown = false);
+
+viewport.addEventListener('mousemove', e => {
+  if (!isDown) return;
+  e.preventDefault();
+  viewport.scrollLeft = scrollLeft - (e.pageX - startX);
+  viewport.scrollTop = scrollTop - (e.pageY - startY);
+});
+
 function dobToTimestamp(dob) {
   if (!dob || typeof dob !== "string") return Infinity;
 

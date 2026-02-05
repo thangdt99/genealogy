@@ -6,13 +6,20 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Gia phả gia đình</h1>
-  <div class="search-box">
-    <input id="searchInput" placeholder="Nhập tên đầy đủ..." />
-    <button onclick="searchByName()">Tìm</button>
-    <button onclick="resetTree()">Reset</button>
+  <header class="header">
+    <h1>Gia phả gia đình</h1>
+    <div class="search-box">
+      <input id="searchInput" placeholder="Nhập tên đầy đủ..." />
+      <button onclick="searchByName()">Tìm</button>
+      <button onclick="resetTree()">Reset</button>
     </div>
-  <div id="tree"></div>
+  </header>
+
+  <main class="content">
+    <div class="tree-viewport">
+      <div id="tree"></div>
+    </div>
+  </main>
 
   <script src="script.js"></script>
 </body>
