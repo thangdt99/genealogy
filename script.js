@@ -101,6 +101,14 @@ const FAMILY_DATA = [
     "gender": "Female",
     "dob": "2004",
     "phone": "0900000013"
+  },
+  {
+    "id": 14,
+    "parent": 8,
+    "name": "Lê Hoài An",
+    "gender": "Male",
+    "dob": "2022",
+    "phone": "0900000014"
   }
 ];
 //"image": "images/female.png",
