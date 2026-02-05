@@ -239,7 +239,7 @@ function searchByName() {
   const keyword = document.getElementById('searchInput').value;
   if (!keyword) return;
 
-  const matches = Object.values(nodeMap).filter(p => p.name.trim() === keyword.trim());
+  const matches = Object.values(nodeMap).filter(p => p.name.toLowerCase().trim() === keyword.toLowerCase().trim());
   const container = document.getElementById('tree');
   container.innerHTML = '';
 
@@ -253,7 +253,7 @@ function searchByName() {
     sortNodeByDob(treeRoot);
 
     const wrapper = document.createElement('div');
-    wrapper.style.marginBottom = '50px';
+    wrapper.className = 'search-tree';
 
     wrapper.appendChild(renderTree(sortTreeByDob([treeRoot])));
     container.appendChild(wrapper);

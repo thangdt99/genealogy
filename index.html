@@ -9,7 +9,7 @@
   <header class="header">
     <h1>Gia phả gia đình</h1>
     <div class="search-box">
-      <input id="searchInput" placeholder="Nhập tên đầy đủ..." />
+      <input id="searchInput" placeholder="Nhập tên đầy đủ..." onkeydown="if(event.key === 'Enter') searchByName()"/>
       <button onclick="searchByName()">Tìm</button>
       <button onclick="resetTree()">Reset</button>
     </div>
