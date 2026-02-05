@@ -75,15 +75,6 @@ h1 {
   border-left: 2px solid #ccc;
 }
 
-.tree li:only-child::before,
-.tree li:only-child::after {
-  display: none;
-}
-
-.tree li:only-child {
-  padding-top: 0;
-}
-
 .tree li:first-child::before,
 .tree li:last-child::after {
   border: 0 none;
