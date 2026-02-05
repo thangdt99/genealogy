@@ -254,6 +254,7 @@ function searchByName() {
 
 function resetTree() {
   const container = document.getElementById('tree');
+  document.getElementById('searchInput').value = '';
   container.innerHTML = '';
   container.appendChild(renderTree(sortTreeByDob(treeData)));
 }
