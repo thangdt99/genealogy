@@ -123,7 +123,7 @@ const FAMILY_DATA = [
     "id": 18,
     "parent": 9,
     "name": "Dương Tiến Đài",
-    "gender": "Female",
+    "gender": "Male",
     "order": 6
   },
   {
@@ -656,7 +656,7 @@ const FAMILY_DATA = [
   {
     "id": 93,
     "parent": 10,
-    "name": "Dương Văn Dỉnh",
+    "name": "Dương Văn Đỉnh",
     "gender": "Male",
     "order": 4
   },
@@ -680,6 +680,350 @@ const FAMILY_DATA = [
     "name": "Dương Thị Thuyết",
     "gender": "Female",
     "order": 7
+  },
+  {
+    "id": 97,
+    "parent": 91,
+    "name": "Dương Văn Sỹ",
+    "gender": "Male",
+    "order": 1
+  },
+  {
+    "id": 98,
+    "parent": 97,
+    "name": "Dương Văn Nông",
+    "gender": "Male",
+    "order": 1
+  },
+  {
+    "id": 99,
+    "parent": 97,
+    "name": "Dương Văn Công",
+    "gender": "Male",
+    "order": 2
+  },
+  {
+    "id": 100,
+    "parent": 97,
+    "name": "Dương Văn Thương",
+    "gender": "Male",
+    "order": 3
+  },
+  {
+    "id": 101,
+    "parent": 97,
+    "name": "Dương Thị Hạnh",
+    "gender": "Female",
+    "order": 4
+  },
+  {
+    "id": 102,
+    "parent": 97,
+    "name": "Dương Thị Phúc",
+    "gender": "Female",
+    "order": 5
+  },
+  {
+    "id": 103,
+    "parent": 97,
+    "name": "Dương Tiến Hiệp",
+    "gender": "Male",
+    "order": 6
+  },
+  {
+    "id": 104,
+    "parent": 97,
+    "name": "Dương Tiến Hải",
+    "gender": "Male",
+    "order": 7
+  },
+  {
+    "id": 105,
+    "parent": 97,
+    "name": "Dương Thị Hà",
+    "gender": "Female",
+    "order": 8
+  },
+  {
+    "id": 106,
+    "parent": 93,
+    "name": "Dương Thị Ve",
+    "gender": "Female",
+    "order": 1
+  },
+  {
+    "id": 107,
+    "parent": 93,
+    "name": "Dương Thị Bé",
+    "gender": "Female",
+    "order": 2
+  },
+  {
+    "id": 108,
+    "parent": 93,
+    "name": "Dương Tiến Hoành",
+    "gender": "Male",
+    "order": 3
+  },
+  {
+    "id": 109,
+    "parent": 94,
+    "name": "Dương Văn Khoan",
+    "gender": "Male",
+    "order": 1
+  },
+  {
+    "id": 110,
+    "parent": 109,
+    "name": "Dương Văn Thành",
+    "gender": "Male",
+    "order": 1
+  },
+  {
+    "id": 111,
+    "parent": 109,
+    "name": "Dương Văn Trung",
+    "gender": "Male",
+    "order": 2
+  },
+  {
+    "id": 112,
+    "parent": 109,
+    "name": "Dương Văn Nam",
+    "gender": "Male",
+    "order": 3
+  },
+  {
+    "id": 113,
+    "parent": 109,
+    "name": "Dương Văn Hà",
+    "gender": "Male",
+    "order": 4
+  },
+  {
+    "id": 114,
+    "parent": 109,
+    "name": "Dương Thị Tâm",
+    "gender": "Female",
+    "order": 5
+  },
+  {
+    "id": 115,
+    "parent": 109,
+    "name": "Dương Thị Liên",
+    "gender": "Female",
+    "order": 6
+  },
+  {
+    "id": 116,
+    "parent": 109,
+    "name": "Dương Thị Nguyệt",
+    "gender": "Female",
+    "order": 7
+  },
+  {
+    "id": 117,
+    "parent": 111,
+    "name": "Dương Tiến Kiên",
+    "gender": "Male",
+    "order": 1
+  },
+  {
+    "id": 118,
+    "parent": 111,
+    "name": "Dương Thị Trang",
+    "gender": "Female",
+    "order": 2
+  },
+  {
+    "id": 119,
+    "parent": 111,
+    "name": "Dương Thị Thu Trúc",
+    "gender": "Female",
+    "order": 3
+  },
+  {
+    "id": 120,
+    "parent": 112,
+    "name": "Dương Thị Thanh",
+    "gender": "Female",
+    "order": 1
+  },
+  {
+    "id": 121,
+    "parent": 112,
+    "name": "Dương Thị Hạnh",
+    "gender": "Female",
+    "order": 2
+  },
+  {
+    "id": 122,
+    "parent": 112,
+    "name": "Dương Ngọc Khánh",
+    "gender": "Male",
+    "order": 3
+  },
+  {
+    "id": 123,
+    "parent": 112,
+    "name": "Dương Phú Đạt",
+    "gender": "Male",
+    "order": 4
+  },
+  {
+    "id": 124,
+    "parent": 113,
+    "name": "Dương Tuấn Anh",
+    "gender": "Male",
+    "order": 1
+  },
+  {
+    "id": 125,
+    "parent": 113,
+    "name": "Dương Tiến Sơn",
+    "gender": "Male",
+    "order": 2
+  },
+  {
+    "id": 126,
+    "parent": 5,
+    "name": "Dương Tiến Chinh",
+    "gender": "Male",
+    "order": 1
+  },
+  {
+    "id": 127,
+    "parent": 5,
+    "name": "Dương Tiến Nghĩa",
+    "gender": "Male",
+    "order": 2
+  },
+  {
+    "id": 128,
+    "parent": 5,
+    "name": "Dương Tiến Chiến",
+    "gender": "Male",
+    "order": 3
+  },
+  {
+    "id": 129,
+    "parent": 5,
+    "name": "Dương Tiến Châu",
+    "gender": "Male",
+    "order": 4
+  },
+  {
+    "id": 130,
+    "parent": 126,
+    "name": "Dương Tiến Chung",
+    "gender": "Male",
+    "order": 1
+  },
+  {
+    "id": 131,
+    "parent": 130,
+    "name": "Dương Tiến Ý",
+    "gender": "Male",
+    "order": 1
+  },
+  {
+    "id": 132,
+    "parent": 131,
+    "name": "Dương Tiến Rục (Chí)",
+    "gender": "Male",
+    "order": 1
+  },
+  {
+    "id": 133,
+    "parent": 132,
+    "name": "Dương Văn Tư",
+    "gender": "Male",
+    "order": 1
+  },
+  {
+    "id": 134,
+    "parent": 132,
+    "name": "Dương Văn Lự",
+    "gender": "Male",
+    "order": 2
+  },
+  {
+    "id": 135,
+    "parent": 132,
+    "name": "Dương Văn Hồng",
+    "gender": "Male",
+    "order": 3
+  },
+  {
+    "id": 136,
+    "parent": 132,
+    "name": "Dương Thị Bé",
+    "gender": "Female",
+    "order": 4
+  },
+  {
+    "id": 137,
+    "parent": 135,
+    "name": "Dương Văn Sơn",
+    "gender": "Male",
+    "dob": "1974",
+    "order": 1
+  },
+  {
+    "id": 138,
+    "parent": 135,
+    "name": "Dương Văn Hùng",
+    "gender": "Male",
+    "order": 2
+  },
+  {
+    "id": 139,
+    "parent": 135,
+    "name": "Dương Văn Kiên",
+    "gender": "Male",
+    "order": 3
+  },
+  {
+    "id": 140,
+    "parent": 133,
+    "name": "Dương Thị Nhiệm",
+    "gender": "Female",
+    "order": 1
+  },
+  {
+    "id": 141,
+    "parent": 133,
+    "name": "Dương Thị Nhạn",
+    "gender": "Female",
+    "order": 2
+  },
+  {
+    "id": 142,
+    "parent": 133,
+    "name": "Dương Văn Như",
+    "gender": "Male",
+    "order": 3
+  },
+  {
+    "id": 143,
+    "parent": 134,
+    "name": "Dương Văn Trọng",
+    "gender": "Male",
+    "order": 1
+  },
+  {
+    "id": 144,
+    "parent": 134,
+    "name": "Dương Văn Chính",
+    "gender": "Male",
+    "order": 2
+  },
+  {
+    "id": 145,
+    "parent": 134,
+    "name": "Dương Văn Nghĩa",
+    "gender": "Male",
+    "order": 3
   }
 ];
 // "order": 1
